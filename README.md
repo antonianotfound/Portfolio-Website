@@ -1,1 +1,1 @@
-# Portfolio-Website
+This website serves as a portfolio that provides potential employers with relevant background information and experience. I created this website through React and hosted it through netlify. It required thorough understanding of CSS and JSX, boosting my confidence in performing more advanced levels of programming. 
