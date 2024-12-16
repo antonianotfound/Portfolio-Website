@@ -1,0 +1,16 @@
+:root {
+    /* colours */
+    --color-text: #f3eded;
+    --color-primary: #6470e4;
+    --color-secondary: #112241;
+    --color-dark: #6470e4;
+    --color-bg: #000000;
+
+    /* fonts */
+    --font-roboto: "roboto";
+    --font-helvetica: "helvetica";
+    --font-arial: "arial";
+    --font-timesnewroman: "times new roman";
+    
+    
+} 

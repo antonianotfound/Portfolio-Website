@@ -1,0 +1,103 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    float: left;
+    font-family: var(--font-helvetica);
+
+}
+ 
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    width: 95%;
+    flex-direction: row;
+    gap: 11px;
+    
+}
+
+.skills {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    font-size: 25px;
+    font-family: var(--font-helvetica);
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.cssImage {
+   width: 75px;
+   margin-top: 25px;
+}
+
+.pythonImage {
+    width: 80px;
+    margin-top: 20px;
+}
+.jsImage {
+    width: 130px;
+    margin-top: 25px;
+}
+
+.jupyterImage {
+    width: 150px;
+    margin-top: 20px;
+    
+}
+.sqlImage {
+    width: 155px;
+    margin-top: 20px;
+}
+.tableauImage {
+    width: 120px;
+    margin-top: 20px;
+}
+.reactImage {
+    width: 80px;
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+.cppImage {
+    width: 90px;
+    margin-top: 16px;
+}
+.nodeImage {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 830px) {
+    .content {
+        align-items: center;
+        gap: 34px;
+    }
+}
